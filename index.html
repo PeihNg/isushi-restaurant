@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./res.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="logo">
+                    <img src="./image/logo-isushi.svg" alt="">
+                </div>
+                <div class="menu-bar">
+                    <span></span>
+                </div>
+                <div class="menu-items">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Thực đơn</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Phản hồi</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Nhân sự</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big-image">
+        <div class="big-image-content">
+            <h2>Nhà hàng Isushi</h2>
+            <p>Đẳng cấp lên ngôi, vị ngọt đôi môi.</p>
+            <button class="big-image-content-btn btn">MENU</button>
+        </div>
+    </section>
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Câu chuyện">Về chúng tôi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-item show-on-scroll left-to-right">
+                    <h2>CHÀO MỪNG ĐẾN VỚI ISUSHI</h2>
+                    <p>Được thành lập từ 2015, Isushi đã lan rộng 10 chi nhánh trên toàn quốc tại 3 thành phố lớn: Hà Nội, Hồ Chí Minh, Hải Phòng. iSushi tự hào mang tới khách hàng những trải nghiệm và cảm xúc Nhật thực thụ với Buffet Nhật Bản 100 món ăn tinh hoa với các món Sashimi tươi ngon, hơn 57 loại Sushi cùng nhiều món ăn hấp dẫn khác được thực hiện dưới sự dẫn dắt tài tình của Tổng bếp trưởng Noda Toshiro.</p>
+                    <button class="btn">
+                        XEM MENU
+                    </button>
+                </div>
+                <div class="about-item show-on-scroll right-to-left">
+                    <div class="about-item-img">
+                        <span>Hơn 5 năm kinh nghiệm</span>
+                        <img src="./image/about.webp" alt="">   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Đặt ngay">Thực đơn</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="menu-title">
+                    <button class="menu-button active" data-title="#trua">Trưa</button>
+                    <button class="menu-button" data-title="#chieu">Chiều</button>
+                    <button class="menu-button" data-title="#do-uong">Đồ uống</button>
+                    <button class="menu-button" data-title="#diem-tam">Điểm tâm</button>
+                </div>
+            </div>
+            <div class="row justify-content">
+                <div class="menu-item-content active" id="trua">
+                        <!-- Food item -->
+                    <div class="food-items show-on-scroll left-to-right">
+                        <div class="food-item">
+                            <img src="./image/mon1.png" alt="">
+                            <p>Birthday Bundle</p>
+                        </div>
+                        <div class="food-price">
+                            <p>2.600.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll right-to-left">
+                        <div class="food-item">
+                            <img src="./image/mon10.png" alt="">
+                            <p>Set Miosoka</p>
+                        </div>
+                        <div class="food-price">
+                            <p>719.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll left-to-right">
+                        <div class="food-item">
+                            <img src="./image/mon5.png" alt="">
+                            <p>Oysters</p>
+                        </div>
+                        <div class="food-price">
+                            <p>300.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll right-to-left">
+                        <div class="food-item">
+                            <img src="./image/mon3.png" alt="">
+                            <p>Robusuta</p>
+                        </div>
+                        <div class="food-price">
+                            <p>1.499.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll left-to-right">
+                        <div class="food-item">
+                            <img src="./image/mon7.png" alt="">
+                            <p>Karin</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll right-to-left">
+                        <div class="food-item">
+                            <img src="./image/mon6.png" alt="">
+                            <p>Rina</p>
+                        </div>
+                        <div class="food-price">
+                            <p>169.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll left-to-right">
+                        <div class="food-item">
+                            <img src="./image/mon8.png" alt="">
+                            <p>Hoshi</p>
+                        </div>
+                        <div class="food-price">
+                            <p>169.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items show-on-scroll right-to-left">
+                        <div class="food-item">
+                            <img src="./image/mon1.png" alt="">
+                            <p>Sanyu</p>
+                        </div>
+                        <div class="food-price">
+                            <p>171.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-content" id="chieu">
+                        <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon2.png" alt="">
+                            <p>Rama</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon9.png" alt="">
+                            <p>Sucana</p>
+                        </div>
+                        <div class="food-price">
+                            <p>304.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon1.png" alt="">
+                            <p>Combo Mika</p>
+                        </div>
+                        <div class="food-price">
+                            <p>1.230.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon7.png" alt="">
+                            <p>Hazy Moon</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon5.png" alt="">
+                            <p>Tsubasa</p>
+                        </div>
+                        <div class="food-price">
+                            <p>192.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon4.png" alt="">
+                            <p>Combo Nani</p>
+                        </div>
+                        <div class="food-price">
+                            <p>700.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon7.png" alt="">
+                            <p>Sancis</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon2.png" alt="">
+                            <p>Tuna</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-content" id="do-uong">
+                        <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/pepsi.jpg" alt="">
+                            <p>Pepsi</p>
+                        </div>
+                        <div class="food-price">
+                            <p>15.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/tiger.webp" alt="">
+                            <p>Tiger Beer</p>
+                        </div>
+                        <div class="food-price">
+                            <p>22.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/strongbow.jpg" alt="">
+                            <p>Combo Strongbow</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/coca.jfif" alt="">
+                            <p>Coca Cola</p>
+                        </div>
+                        <div class="food-price">
+                            <p>20.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/heniken.png" alt="">
+                            <p>Heniken</p>
+                        </div>
+                        <div class="food-price">
+                            <p>25.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mirinda.jpg" alt="">
+                            <p>Mirinda</p>
+                        </div>
+                        <div class="food-price">
+                            <p>13.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/orange.jpg" alt="">
+                            <p>Orange</p>
+                        </div>
+                        <div class="food-price">
+                            <p>33.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/pepsi.jpg" alt="">
+                            <p>Peps</p>
+                        </div>
+                        <div class="food-price">
+                            <p>12.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-content" id="diem-tam">
+                        <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon1.png" alt="">
+                            <p>Combo Tuna</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon9.png" alt="">
+                            <p>Nineni</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon7.png" alt="">
+                            <p>Royal</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon4.png" alt="">
+                            <p>Oysroys</p>
+                        </div>
+                        <div class="food-price">
+                            <p>720.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon3.png" alt="">
+                            <p>Koro</p>
+                        </div>
+                        <div class="food-price">
+                            <p>440.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon6.png" alt="">
+                            <p>Camsa</p>
+                        </div>
+                        <div class="food-price">
+                            <p>150.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon4.png" alt="">
+                            <p>Danshi</p>
+                        </div>
+                        <div class="food-price">
+                            <p>1.230.000 VNĐ</p>
+                        </div>
+                    </div>
+                    <!-- Food item -->
+                    <div class="food-items">
+                        <div class="food-item">
+                            <img src="./image/mon2.png" alt="">
+                            <p>Tuna</p>
+                        </div>
+                        <div class="food-price">
+                            <p>999.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="phan-hoi section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Ý kiến">Phản hồi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="phan-hoi-items">
+                    <!-- Phan hoi item -->
+                    <div class="phan-hoi-item show-on-scroll zoom">
+                        <div class="phan-hoi-item-content">
+                            <div class="phan-hoi-item-img-content-text">
+                                <h2>Nguyễn Hữu Hiệp</h2>
+                                <span>Nhân viên văn phòng</span>
+                            </div>
+                            <div class="phan-hoi-item-img-content-img">
+                                <img src="./image/avatar.jpg" alt="">
+                            </div>
+                        </div>
+                        <p>Phải nói là cá hồi và cá ngừ ở đây rất tươi ngon, cắt vừa ăn và miếng cá hồi béo ngon cực. Được gọi thả ga nữa nên ăn không cần nghĩ ngợi ^^!</p>
+                        <div class="phan-hoi-item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- Phan hoi item -->
+                    <div class="phan-hoi-item show-on-scroll zoom">
+                        <div class="phan-hoi-item-content">
+                            <div class="phan-hoi-item-img-content-text">
+                                <h2>Minh Thư</h2>
+                                <span>Sinh viên</span>
+                            </div>
+                            <div class="phan-hoi-item-img-content-img">
+                                <img src="./image/mthu.jpg" alt="">
+                            </div>
+                        </div>
+                        <p>Không gian đậm chất Nhật Bản mà mình đã tìm từ lâu. Menu thì rất đa dạng như buffet Kiku, buffet Sakura. Sashimi rất tươi ngon và quan trọng là rất nhiều nên ăn thỏa thích</p>
+                        <div class="phan-hoi-item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <!-- Phan hoi item -->
+                    <div class="phan-hoi-item show-on-scroll zoom">
+                        <div class="phan-hoi-item-content">
+                            <div class="phan-hoi-item-img-content-text">
+                                <h2>Đắc Danh</h2>
+                                <span>Tiktoker</span>
+                            </div>
+                            <div class="phan-hoi-item-img-content-img">
+                                <img src="./image/danh.jpg" alt="">
+                            </div>
+                        </div>
+                        <p>Lần đầu ăn ở đây mà mê đắm luôn, sau này có dịp sẽ ghé ăn thường xuyên. Hehe</p>
+                        <div class="phan-hoi-item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Đội ngũ">Thành viên</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- team item -->
+                <div class="team-items show-on-scroll zoom2">
+                    <img src="./image/beptruong.jpg" alt="">
+                    <div class="team-items-text">
+                        <h2>Alexander Teo</h2>
+                        <span>Bếp trưởng</span>
+                    </div>
+                </div>
+                <!-- team item -->
+                <div class="team-items show-on-scroll zoom2">
+                    <img src="./image/hnhu.jpg" alt="">
+                    <div class="team-items-text">
+                        <h2>Huỳnh Như</h2>
+                        <span>Quản lý nhà hàng</span>
+                    </div>
+                </div>
+                <!-- team item -->
+                <div class="team-items show-on-scroll zoom2">
+                    <img src="./image/phubepppp.jpg" alt="">
+                    <div class="team-items-text">
+                        <h2>Duy Phan</h2>
+                        <span>Phụ bếp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="footer-item">
+                    <h2>Địa chỉ</h2>
+                    <p>197 Trần Bá Giao <br> Phường 13, Gò Vấp</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Giờ mở cửa</h2>
+                    <p>7:00 - 22:00 <br> All Day</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Liên hệ</h2>
+                    <p>Phone: 0372915531 <br>
+                    Email: huu2414@gmail.com</p>
+                    <div class="footer-social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="copyright">
+                ©2022 - Bản quyền thuộc Isushi Restaurant
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
